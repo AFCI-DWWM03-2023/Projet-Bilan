@@ -1,5 +1,7 @@
 body {
   background-color: #F0EBF8;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -8,7 +10,13 @@ body {
   align-items: center;
 }
 
+.couleur{
+width: 100%;
+height: 30px;
+background-color: purple ;
+}
 .top {
+  margin-top: 10px;
   width: 550px;
   display: flex;
   flex-direction: column;
@@ -31,7 +39,7 @@ section {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  height: 30rem;
+  height: 50rem;
 }
 
 .question {
@@ -49,7 +57,7 @@ section {
 .ligne {
   display: flex;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   justify-content: center;
 }
 
@@ -64,11 +72,20 @@ input {
   width: 300px;
   height: 25px;
   margin-top: 35px;
+  border: none;
+  border-radius: 10px;
+}
+select{
+  width: 300px;
+  height: 25px;
+  margin-top: 35px;
+  border: none;
+  border-radius: 10px;
 }
 
 .button-container {
   display: flex;
-  margin-top: 370px;
+  margin-top: 0px;
   margin-bottom: 40px;
 
 }
@@ -97,5 +114,139 @@ input {
 }
 
 .logo{
-  position: absolute;
+  position: relative;
+  margin-left: -82%;
+
+}
+
+@media screen and (max-width:380px) {
+  body {
+    background-color: #F0EBF8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .couleur{
+  width: 380px;
+  height: 30px;
+  background-color: purple ;
+  }
+  .top {
+    
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+  }
+  
+  section {
+    flex: 1;
+    border: 1px solid #F0EBF8;
+    padding-left: 10px;
+  }
+  
+  .redtexte {
+    color: red;
+  }
+  
+  .middle {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 50rem;
+    align-items: center;
+  }
+  
+  .question {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #D9D9D9;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ligne {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  label {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Roboto Slab';
+    text-decoration: underline;
+  }
+  
+  input {
+    width: 200px;
+    height: 25px;
+    margin-top: 35px;
+    border: none;
+    border-radius: 10px;
+  }
+  select{
+    width: 200px;
+    height: 25px;
+    margin-top: 35px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    margin-top: 480px;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .button1 {
+  
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+   margin-left: 0px;
+  }
+  
+  .button2 {
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+  
+  .logo{
+    position: relative;
+    margin-left: 0%;
+  
+  }
+  
 }
