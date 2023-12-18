@@ -10,11 +10,12 @@ body {
   align-items: center;
 }
 
-.couleur{
-width: 100%;
-height: 30px;
-background-color: purple ;
+.couleur {
+  width: 100%;
+  height: 30px;
+  background-color: purple;
 }
+
 .top {
   margin-top: 10px;
   width: 550px;
@@ -52,6 +53,7 @@ section {
   border-radius: 15px;
   justify-content: center;
   align-items: center;
+  border: 2px solid purple;
 }
 
 .ligne {
@@ -74,8 +76,10 @@ input {
   margin-top: 35px;
   border: none;
   border-radius: 10px;
+  text-align: center;
 }
-select{
+
+select {
   width: 300px;
   height: 25px;
   margin-top: 35px;
@@ -85,7 +89,7 @@ select{
 
 .button-container {
   display: flex;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 40px;
 
 }
@@ -113,7 +117,7 @@ select{
   margin-left: 20em;
 }
 
-.logo{
+.logo {
   position: relative;
   margin-left: -82%;
 
@@ -125,20 +129,21 @@ select{
     margin: 0;
     padding: 0;
   }
-  
+
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  .couleur{
-  width: 380px;
-  height: 30px;
-  background-color: purple ;
+
+  .couleur {
+    width: 380px;
+    height: 30px;
+    background-color: purple;
   }
+
   .top {
-    
+
     margin-top: 10px;
     width: 300px;
     display: flex;
@@ -147,17 +152,17 @@ select{
     background-color: #D9D9D9;
     border-radius: 20px;
   }
-  
+
   section {
     flex: 1;
     border: 1px solid #F0EBF8;
     padding-left: 10px;
   }
-  
+
   .redtexte {
     color: red;
   }
-  
+
   .middle {
     width: 300px;
     display: flex;
@@ -167,7 +172,7 @@ select{
     height: 50rem;
     align-items: center;
   }
-  
+
   .question {
     display: flex;
     flex-direction: column;
@@ -180,7 +185,7 @@ select{
     justify-content: center;
     align-items: center;
   }
-  
+
   .ligne {
     display: flex;
     margin-top: 0px;
@@ -188,14 +193,14 @@ select{
     justify-content: center;
     flex-wrap: wrap;
   }
-  
+
   label {
     margin-left: 10px;
     font-size: 15px;
     font-family: 'Roboto Slab';
     text-decoration: underline;
   }
-  
+
   input {
     width: 200px;
     height: 25px;
@@ -203,24 +208,25 @@ select{
     border: none;
     border-radius: 10px;
   }
-  select{
+
+  select {
     width: 200px;
     height: 25px;
     margin-top: 35px;
     border: none;
     border-radius: 10px;
   }
-  
+
   .button-container {
     display: flex;
     margin-top: 480px;
     flex-direction: column;
     justify-content: center;
-  
+
   }
-  
+
   .button1 {
-  
+
     background-color: purple;
     color: white;
     padding: 10px 10px;
@@ -229,9 +235,9 @@ select{
     border-radius: 5px;
     margin-bottom: 15px;
     cursor: pointer;
-   margin-left: 0px;
+    margin-left: 0px;
   }
-  
+
   .button2 {
     background-color: purple;
     color: white;
@@ -242,11 +248,11 @@ select{
     cursor: pointer;
     margin-left: 0px;
   }
-  
-  .logo{
+
+  .logo {
     position: relative;
     margin-left: 0%;
-  
+
   }
-  
+
 }
